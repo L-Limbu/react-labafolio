@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
   }
 }
 
@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.waveAnimationSlow{
+  animation: 20s shake-slow infinite alternate; 
+}
+
+
+@keyframes shake-slow {
+  0% { transform: skewY(0.75deg); }
+  30% {transform: scale(1.05)}
+  50% { transform: skewX(-2deg)}  
+  80% { transform: scale(1.05)}
+  100% { transform: skewY(-0.75deg); }  
+}
+
