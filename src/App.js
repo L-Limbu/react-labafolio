@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+const handleClick= event =>  event.target.value = 'Hello world'
 function App() {
   return (
     <div className="App">
@@ -9,6 +10,7 @@ function App() {
         <p className='waveAnimationSlow'>
           Welcome to my portfolio website. Hope you enjoy my work.
         </p>
+
 
       </header>
     </div>
