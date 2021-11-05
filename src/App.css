@@ -24,9 +24,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -36,10 +33,13 @@
     transform: rotate(360deg);
   }
 }
+.homePage-text {
+  font-size: '2rem';
+  font-family:'Orbitron'
+}
 .waveAnimationSlow{
   animation: 20s shake-slow infinite alternate; 
 }
-
 
 @keyframes shake-slow {
   0% { transform: skewY(0.75deg); }
@@ -49,3 +49,23 @@
   100% { transform: skewY(-0.75deg); }  
 }
 
+.home-button {
+  background-color: black;
+  color:white;
+  font-size: 2rem;
+  padding: 1.5rem 2.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.6s;
+  margin-bottom: 100%;
+  border: rgb(181, 130, 228) 5px solid;
+  font-family: Orbitron;
+}
+.home-button:hover {
+  background-color: rgb(181, 130, 228);
+  transition: background-color 0.5s linear;
+}
+.home-button:active{
+  color: rgb(181, 130, 228);
+  transition: color 1s linear;
+}
