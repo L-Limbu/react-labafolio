@@ -9,13 +9,13 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/works/:project/'>
+        <Route path='/works/solar-system/'>
           <SolarSystem />
         </Route>
-        <Route path='/works/:project/'>
+        <Route path='/works/atom-trap/'>
           <AtomTrap />
         </Route>
-        <Route path='/works/:project/'>
+        <Route path='/works/ising-model/'>
           <IsingModel />
         </Route>
         <Route path='/works'>

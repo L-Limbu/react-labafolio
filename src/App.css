@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: black;
   min-height: 100vh;
@@ -25,17 +14,11 @@
 }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 .homePage-text {
   font-size: '2rem';
-  font-family:'Orbitron'
+  font-family:'Orbitron';
+  margin-top: 20%;
 }
 .waveAnimationSlow{
   animation: 20s shake-slow infinite alternate; 
@@ -62,7 +45,7 @@
   font-family: Orbitron;
 }
 .home-button:hover {
-  background-color: rgb(181, 130, 228);
+  background-color: #A444E4;
   transition: background-color 0.5s linear;
 }
 .home-button:active{
