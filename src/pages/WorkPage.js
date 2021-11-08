@@ -41,7 +41,7 @@ export default function WorkPage () {
                         <h2 className='waveAnimationSlow'>Currently working on...</h2>
                         <div className='box-text'>
                             <i className="fas fa-pen-fancy"></i>
-                            <p>I am working on web development to show you guys <br /> my projects that I done. <br/> ;)</p>
+                            <p>I am working on web development to show you guys my projects. <br/> ;)</p>
                         </div>
                     </div>
                 </div>
