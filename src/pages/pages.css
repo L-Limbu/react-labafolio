@@ -4,6 +4,18 @@
     background-color: black;
     color: white;
 }
+.waveAnimationSlow{
+    animation: 20s shake-slow infinite alternate; 
+  }
+  
+@keyframes shake-slow {
+0% { transform: skewY(0.75deg); }
+30% {transform: scale(1.05)}
+50% { transform: skewX(-2deg)}  
+80% { transform: scale(1.05)}
+100% { transform: skewY(-0.75deg); }  
+}
+
 .header {
     text-align: center;
     font-family:'Orbitron'
@@ -34,6 +46,7 @@ h2 {
 }
 
 .boxes:hover {
-    background-color: wheat;
+    background-color: rgb(179, 245, 220);
     transition: all 1s;
+    font-size: 1rem;
 }
