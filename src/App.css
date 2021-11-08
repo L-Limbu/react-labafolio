@@ -1,9 +1,11 @@
 .App {
   text-align: center;
 }
+body {
+  background-image: url('background.jpg');
 
+}
 .App-header {
-  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -48,7 +50,19 @@
   background-color: #A444E4;
   transition: background-color 0.5s linear;
 }
+
 .home-button:active{
   color: #A444E4;
   transition: color 1s linear;
+}
+
+body::-webkit-scrollbar{
+  width:0.5rem;
+  height: 0.5rem;
+}
+body::-webkit-scrollbar-track{
+  background: black;
+}
+body::-webkit-scrollbar-thumb{
+  background: rgb(165, 21, 231);
 }

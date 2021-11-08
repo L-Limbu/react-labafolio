@@ -1,25 +1,26 @@
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import HomePage from './pages/homepage';
-import WorkPage from './pages/WorkPage';
-import SolarSystem from './pages/uniProjects/solarSystem';
-import AtomTrap from './pages/uniProjects/atomTrap';
-import IsingModel from './pages/uniProjects/isingModel';
+
+import UniPage from './pages/uniProjects/uni-page';
+import PersonalPage from './pages/personalProject/personalProject';
+import Display from './pages/display';
+import Workpage from './pages/Works/workPage';
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/works/solar-system/'>
-          <SolarSystem />
+        <Route path='/display/uni-page/'>
+          <UniPage />
         </Route>
-        <Route path='/works/atom-trap/'>
-          <AtomTrap />
+        <Route path='/display/personal-page/'>
+          <PersonalPage />
         </Route>
-        <Route path='/works/ising-model/'>
-          <IsingModel />
+        <Route path='/display/work-page/'>
+          <Workpage />
         </Route>
-        <Route path='/works'>
-          <WorkPage />
+        <Route path='/display'>
+          <Display />
         </Route>
         <Route path='/'>
           <HomePage />

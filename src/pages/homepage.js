@@ -13,7 +13,7 @@ export default function HomePage() {
             <p className='waveAnimationSlow homePage-text'>
               Welcome to my portfolio website. Hope you enjoy my work.
             </p>
-            <button className='home-button' onClick={() => history.push('/works')}> 
+            <button className='home-button' onClick={() => history.push('/display')}> 
               Display
             </button>
     
