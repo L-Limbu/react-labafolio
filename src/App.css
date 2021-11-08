@@ -58,7 +58,7 @@
   text-decoration: none;
   transition: all 0.6s;
   margin-bottom: 100%;
-  border: rgb(181, 130, 228) 5px solid;
+  border: #A444E4 0.2rem solid;
   font-family: Orbitron;
 }
 .home-button:hover {
@@ -66,6 +66,6 @@
   transition: background-color 0.5s linear;
 }
 .home-button:active{
-  color: rgb(181, 130, 228);
+  color: #A444E4;
   transition: color 1s linear;
 }

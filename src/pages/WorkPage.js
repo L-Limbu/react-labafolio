@@ -1,24 +1,22 @@
 import React from 'react';
-import './pages.css'
+import './pages.css';
+import {useHistory} from 'react-router-dom';
 
-function enter() {
-    return (
-<p style={{fontSize: 12}}>I am working on web development to show you guys my projects that I done.</p>
-    )
-}
+
 export default function WorkPage () {
+    const history = useHistory();
     return (
         <div >
             <h1 className='header waveAnimationSlow'> My Works</h1>
             <div className='grid-wrapper'>
                 <div className='grid-boxes'>
 
-                    <div className='boxes' onClick={enter()}>
+                    <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Looking at the solar system</h2>
                         <div className='box-text'>
                             <i className="fas fa-meteor" ></i>
                             <p> Some text about the solar system</p>
-                            <button >Know more</button>
+                            <button onClick={() => history.push('/works/solar-system')}>Know more</button>
                         </div>
                     </div>
                     <div className='boxes'>
@@ -26,7 +24,7 @@ export default function WorkPage () {
                         <div className='box-text'>
                             <i className="fas fa-atom"  ></i>
                             <p> Some text about trapping an atom</p>
-                            <button >Know more</button>
+                            <button onClick={() => history.push('/works/atom-trap')} >Know more</button>
                         </div>
                     </div>
                     <div className='boxes'>
@@ -34,7 +32,7 @@ export default function WorkPage () {
                         <div className='box-text'>
                             <i className="fas fa-magnet" ></i>
                             <p> Some text about magnets</p>
-                            <button >Know more</button>
+                            <button onClick={() => history.push('/works/ising-model')}>Know more</button>
                         </div>
                     </div>
                     <div className='boxes'>
