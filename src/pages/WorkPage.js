@@ -17,19 +17,19 @@ export default function WorkPage () {
                         <h2 className='waveAnimationSlow'>Looking at the solar system</h2>
                         <i className="fas fa-meteor" ></i>
                         <p> </p>
-                        <button ></button>
+                        <button >Know more</button>
                     </div>
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Trapping an atom</h2>
                         <i className="fas fa-atom"  ></i>
                         <p> </p>
-                        <button ></button>
+                        <button >Know more</button>
                     </div>
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Weird Magnet</h2>
                         <i className="fas fa-magnet" ></i>
                         <p> </p>
-                        <button ></button>
+                        <button >Know more</button>
                     </div>
                     <div className='boxes' onMouseEnter={enter()}>
                         <h2 className='waveAnimationSlow'>Currently working on...</h2>
