@@ -1,6 +1,6 @@
 body {
   background-image: url('background.jpg');
-
+  background-size:initial;
   text-align: center;
   font-size: 12px;
   overflow-y: hidden;
@@ -9,14 +9,15 @@ body {
 
 header {
   font-size: 2rem;
-  color: #A444E4;
+  color: white;
   font-weight: bold;
+  text-shadow: 2px 2px #A444E4;
 }
 .waveAnimationSlow.homePage-text {
   font-size: '2rem';
   font-family:'Orbitron';
-  margin-top: 20%;
-  opacity: 0.8;
+  margin-top: 15%;
+  opacity: 1;
 
 }
 
@@ -40,7 +41,6 @@ header {
   border-radius: 20px;
   text-decoration: none;
   transition: all 0.6s;
-  margin-bottom: 100%;
   border: #A444E4 0.2rem solid;
   font-family: Orbitron;
 }

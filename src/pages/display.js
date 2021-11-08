@@ -1,7 +1,7 @@
 import React from 'react';
 import './pages.css';
 import {useHistory} from 'react-router-dom';
-import '../App.css'
+
 
 export default function Display () {
     const history = useHistory();
