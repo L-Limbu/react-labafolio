@@ -3,9 +3,7 @@ import './pages.css'
 
 function enter() {
     return (
-        <p>
-            Hello
-        </p>
+<p style={{fontSize: 12}}>I am working on web development to show you guys my projects that I done.</p>
     )
 }
 export default function WorkPage () {
@@ -27,9 +25,10 @@ export default function WorkPage () {
                         <h2 className='waveAnimationSlow'>Weird Magnet</h2>
                         <i className="fas fa-magnet" ></i>
                     </div>
-                    <div className='boxes'>
+                    <div className='boxes' onMouseEnter={enter()}>
                         <h2 className='waveAnimationSlow'>Currently working on...</h2>
                         <i className="fas fa-pen-fancy"></i>
+                        <p>I am working on web development to show you guys <br /> my projects that I done.</p>
                     </div>
                 </div>
             </div>
