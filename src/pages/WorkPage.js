@@ -16,19 +16,25 @@ export default function WorkPage () {
                     <div className='boxes' onClick={enter()}>
                         <h2 className='waveAnimationSlow'>Looking at the solar system</h2>
                         <i className="fas fa-meteor" ></i>
+                        <p> </p>
+                        <button ></button>
                     </div>
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Trapping an atom</h2>
                         <i className="fas fa-atom"  ></i>
+                        <p> </p>
+                        <button ></button>
                     </div>
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Weird Magnet</h2>
                         <i className="fas fa-magnet" ></i>
+                        <p> </p>
+                        <button ></button>
                     </div>
                     <div className='boxes' onMouseEnter={enter()}>
                         <h2 className='waveAnimationSlow'>Currently working on...</h2>
                         <i className="fas fa-pen-fancy"></i>
-                        <p>I am working on web development to show you guys <br /> my projects that I done.</p>
+                        <p>I am working on web development to show you guys <br /> my projects that I done. <br/> ;)</p>
                     </div>
                 </div>
             </div>
