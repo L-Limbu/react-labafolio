@@ -6,7 +6,7 @@
 }
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+
 }
 .waveAnimationSlow{
     animation: 20s shake-slow infinite alternate; 
@@ -43,7 +43,7 @@ h2 {
 .boxes {
     border: solid 0.2rem #A444E4;
     border-radius: 5px;
-    font-size: 13rem;
+    font-size: 12rem;
     text-align: center;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
@@ -66,7 +66,7 @@ h2 {
 
 .boxes .box-text {
     position: relative;
-    height: 18rem;
+    height: 15rem;
     margin: auto;
     overflow: hidden;
 }
@@ -96,4 +96,15 @@ h2 {
     opacity: 1;
     transition: all 2s;
     background-color:#00A3A3;
+}
+
+#AboutMe {
+    font-size: 10rem;
+    height: 10rem;
+}
+#AboutMe:hover {
+    display: block;
+    font-size: 1rem;
+    opacity: 1;
+    transition: all 1s;
 }

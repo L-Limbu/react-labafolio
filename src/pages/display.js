@@ -44,8 +44,8 @@ export default function Display () {
                     </div>
                 </div>
                 <div className='boxes'>
-                        <h2 className='waveAnimationSlow'>About me</h2>
-                        <div className='box-text'>
+                        <h2 className='waveAnimationSlow' >About me</h2>
+                        <div className='box-text' id='AboutMe'>
                             <i class="fas fa-user-graduate"></i>
                             <p> Email: labalimbu360@gmail.com<br/> ;)</p>
                         </div>

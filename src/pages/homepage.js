@@ -7,8 +7,8 @@ export default function HomePage() {
     const history = useHistory()
     return (
         
-        <div className="App">
-          <header className="App-header">
+        <div>
+          <header>
             
             <p className='waveAnimationSlow homePage-text'>
               Welcome to my portfolio website. Hope you enjoy my work.

@@ -1,27 +1,25 @@
-.App {
-  text-align: center;
-}
 body {
   background-image: url('background.jpg');
 
-}
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  font-size: 12px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
-
-
-.homePage-text {
+header {
+  font-size: 2rem;
+  color: #A444E4;
+  font-weight: bold;
+}
+.waveAnimationSlow.homePage-text {
   font-size: '2rem';
   font-family:'Orbitron';
   margin-top: 20%;
+  opacity: 0.8;
+
 }
+
 .waveAnimationSlow{
   animation: 20s shake-slow infinite alternate; 
 }
@@ -64,5 +62,5 @@ body::-webkit-scrollbar-track{
   background: black;
 }
 body::-webkit-scrollbar-thumb{
-  background: rgb(165, 21, 231);
+  background: #A444E4;
 }

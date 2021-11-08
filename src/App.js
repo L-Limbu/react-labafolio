@@ -6,13 +6,30 @@ import UniPage from './pages/uniProjects/uni-page';
 import PersonalPage from './pages/personalProject/personalProject';
 import Display from './pages/display';
 import Workpage from './pages/Works/workPage';
+import SolarSystem from './pages/uniProjects/solarSystem';
+import AtomTrap from './pages/uniProjects/atomTrap';
+import IsingModel from './pages/uniProjects/isingModel';
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path='/display/uni-page/solar-system/'>
+          <SolarSystem />
+        </Route>
+        <Route path='/display/uni-page/atom-trap/'>
+          < AtomTrap/>
+        </Route>
+        <Route path='/display/uni-page/magnets'>
+          <IsingModel />
+        </Route>
+        <Route path='/display/uni-page/solar-system/'>
+          <SolarSystem />
+        </Route>
         <Route path='/display/uni-page/'>
           <UniPage />
         </Route>
+        
+
         <Route path='/display/personal-page/'>
           <PersonalPage />
         </Route>
