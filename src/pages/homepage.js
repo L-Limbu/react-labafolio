@@ -10,7 +10,7 @@ export default function HomePage() {
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <p className='waveAnimationSlow' className='homePage-text'>
+            <p className='waveAnimationSlow homePage-text'>
               Welcome to my portfolio website. Hope you enjoy my work.
             </p>
             <button className='home-button' onClick={() => history.push('/works')}> 
