@@ -64,3 +64,20 @@ body::-webkit-scrollbar-track{
 body::-webkit-scrollbar-thumb{
   background: #A444E4;
 }
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+  header{
+    margin-top: 30rem;
+    font-size: 1.5rem;
+    
+  }
+
+}
