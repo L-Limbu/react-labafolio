@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../App.css';
 import { useHistory } from 'react-router-dom';
-import ReactNativeHapticFeedback from "react-native-haptic-feedback";
+
 
 
 export default function HomePage() {
