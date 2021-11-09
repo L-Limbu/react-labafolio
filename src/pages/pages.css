@@ -7,6 +7,7 @@
 html, body {
     max-width: 100%;
     overflow-y: visible;
+    overflow-x: hidden;
 }
 .waveAnimationSlow{
     animation: 20s shake-slow infinite alternate; 
@@ -55,7 +56,7 @@ h2 {
 }
 
 .boxes:hover {
-    background-color: #A444E4;
+    background-color: #330075;
     transition: all 0.8s;
     opacity: 0.95;
     font-size: 1rem;
@@ -97,7 +98,9 @@ h2 {
     transition: all 2s;
     background-color:#00A3A3;
 }
-
+.boxes:hover button:hover{
+    background-color: #FFF;
+}
 #AboutMe {
     font-size: 10rem;
     height: 10rem;
@@ -107,4 +110,48 @@ h2 {
     font-size: 1rem;
     opacity: 1;
     transition: all 1s;
+}
+
+/* Portrait Phone */
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+    .grid-wrapper {
+        margin: auto;
+        display: block;
+        max-width: 350px;
+    }
+
+    .grid-boxes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .boxes .box-text {
+        position: relative;
+        height: 15rem;
+        margin: auto;
+        overflow: hidden;
+    }
+    .boxes {
+        border: solid 0.2rem #A444E4;
+        border-radius: 5px;
+        font-size: 10rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+        font-family:'Orbitron';
+        transition: all 0.8s;
+        overflow:hidden;
+        background-color: black;
+        opacity: 0.9;
+    }
+    
 }
