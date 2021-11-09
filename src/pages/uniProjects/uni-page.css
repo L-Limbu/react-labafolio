@@ -5,6 +5,13 @@ h1{
     font-family: 'Orbitron';
     text-align: center;
 }
+
+.boxes .uni-box-text {
+    position: relative;
+    height: 17rem;
+    margin: auto;
+    overflow: hidden;
+}
 /* Portrait Phone */
 
 @media only screen

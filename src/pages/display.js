@@ -46,9 +46,9 @@ export default function Display () {
                         </div>
                     </div>
                 </div>
-                <div className='boxes'>
+                <div className='boxes' id='AboutMe'>
                         <h2 className='waveAnimationSlow' >About me</h2>
-                        <div className='box-text' id='AboutMe'>
+                        <div className='box-text' >
                             <i class="fas fa-user-graduate"></i>
                             <p> Theoretical Physicist aspiring to be software and web developer.<br/><br/>Email: labalimbu360@gmail.com<br/><br/> :)</p>
                         </div>
