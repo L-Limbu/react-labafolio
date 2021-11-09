@@ -26,7 +26,7 @@ and (orientation: portrait) {
 
     .boxes .uni-box-text {
         
-        height: 20rem;
+        height: 21rem;
         margin: auto;
         overflow: hidden;
     }
@@ -52,7 +52,7 @@ and (orientation: landscape) {
     }
     .boxes .uni-box-text {
         position: relative;
-        height: 20rem;
+        height: 21rem;
         margin: auto;
         overflow: hidden;
     }
