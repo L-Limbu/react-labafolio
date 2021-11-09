@@ -177,4 +177,10 @@ and (orientation: landscape) {
     h2{
         font-size: 1.5rem;
     }
+    .boxes .box-text {
+        position: relative;
+        height: 17rem;
+        margin: auto;
+        overflow: hidden;
+    }
 } 
