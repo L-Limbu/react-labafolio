@@ -128,7 +128,9 @@ and (orientation: portrait) {
         display: block;
         max-width: 350px;
     }
-
+    h2 {
+        font-size: 1.5rem;
+    }
     .grid-boxes {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -155,3 +157,21 @@ and (orientation: portrait) {
     }
     
 }
+
+/*Landscape */
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 812px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: landscape) {
+    .grid-wrapper{
+        max-width: 780px;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+} 

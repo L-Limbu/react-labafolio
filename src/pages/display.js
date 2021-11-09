@@ -42,7 +42,7 @@ export default function Display () {
                         <h2 className='waveAnimationSlow'>Currently working on...</h2>
                         <div className='box-text'>
                             <i className="fas fa-pen-fancy"></i>
-                            <p>Web development to show you guys my projects. <br/> ;)</p>
+                            <p>Web development to show you guys my projects. </p>
                         </div>
                     </div>
                 </div>
