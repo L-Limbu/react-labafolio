@@ -12,7 +12,7 @@ export default function UniPage () {
 
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Looking at the solar system</h2>
-                        <div className='uni-box-text'>
+                        <div className='uni-box-text '>
                             <i class="fas fa-meteor" ></i>
                             <p>
                                 <strong>Keywords: Space, Simulation, Orbits</strong><br/><br/>
