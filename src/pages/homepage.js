@@ -8,8 +8,9 @@ import { useHistory } from 'react-router-dom';
 export default function HomePage() {
     const history = useHistory();
     function handleDisplay() {
-      navigator.vibrate(200);
+      return (navigator.vibrate(200),
       history.push('/display')
+      );
     };
     return (
         
