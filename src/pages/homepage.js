@@ -8,7 +8,8 @@ import { useHistory } from 'react-router-dom';
 export default function HomePage() {
     const history = useHistory();
     function handleDisplay() {
-      return navigator.vibrate(200)
+      navigator.vibrate(200);
+      history.push('/display')
     };
     return (
         
@@ -18,7 +19,7 @@ export default function HomePage() {
             <p className='waveAnimationSlow homePage-text'>
               Welcome to my portfolio website. <br/>Hope you enjoy my work :)
             </p>
-            <button className='home-button' onClick={() => history.push('/display')} onPress={handleDisplay}> 
+            <button className='home-button' onClick={handleDisplay}> 
               Display
             </button>
     
