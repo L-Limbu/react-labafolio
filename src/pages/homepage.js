@@ -6,14 +6,10 @@ import ReactNativeHapticFeedback from "react-native-haptic-feedback";
 
 
 export default function HomePage() {
-    const history = useHistory()
+    const history = useHistory();
     function handleDisplay() {
-      const options = {
-        enableVibrateFallback: true,
-        ignoreAndroidSystemSettings: false
-      }
-      return ReactNativeHapticFeedback.trigger('impactMedium', options);
-    }
+      return navigator.vibrate(200)
+    };
     return (
         
         <div>
