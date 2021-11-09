@@ -1,6 +1,6 @@
 import React from 'react';
 import './pages.css';
-import {useHistory} from 'react-router-dom';
+import {useHistory, Link, Redirect} from 'react-router-dom';
 
 
 export default function Display () {
@@ -15,31 +15,34 @@ export default function Display () {
                         <h2 className='waveAnimationSlow'>University works</h2>
                         <div className='box-text'>
                             <i class="fas fa-university"></i>
-                            <p> University works</p>
-                            <button onClick={() => history.push('/display/uni-page')}>Know more</button>
+                            <p>I studied Theoretical Physics so most of work done in university was countless number of courseworks and exams. 
+                               But those courseworks introduced me to programming where I simulated nature from orbiting planets to quantum
+                               phenomena (which I enjoyed) 
+                                along with some experimental works where I could shine and polish my Physics skills.</p>
+                            <button onClick={() => history.push('/display/uni-page')}>View Works</button>
                         </div>
                     </div>
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Personal Projects</h2>
                         <div className='box-text'>
                             <i class="fas fa-grin-beam"></i>
-                            <p>Personal Projects</p>
-                            <button onClick={() => history.push('/display/personal-page')} >Know more</button>
+                            <p> I only recently started doing personal projects but I wish to start doing more personal projects.</p>
+                            <button onClick={() => history.push('/display/personal-page')} >View Works</button>
                         </div>
                     </div>
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Work</h2>
                         <div className='box-text'>
                             <i class="fas fa-briefcase"></i>
-                            <p> Work</p>
-                            <button onClick={() => history.push('/display/work-page')}>Know more</button>
+                            <p> Solving problems for people and society using programming. </p>
+                            <button onClick={() => history.push('/display/work-page')}>View Works</button>
                         </div>
                     </div>
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Currently working on...</h2>
                         <div className='box-text'>
                             <i className="fas fa-pen-fancy"></i>
-                            <p>I am working on web development to show you guys my projects. <br/> ;)</p>
+                            <p>Web development to show you guys my projects. <br/> ;)</p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +50,7 @@ export default function Display () {
                         <h2 className='waveAnimationSlow' >About me</h2>
                         <div className='box-text' id='AboutMe'>
                             <i class="fas fa-user-graduate"></i>
-                            <p> Email: labalimbu360@gmail.com<br/> ;)</p>
+                            <p> Theoretical Physicist aspiring to be software and web developer.<br/><br/>Email: labalimbu360@gmail.com<br/><br/> ;)</p>
                         </div>
                     </div>
             </div>
