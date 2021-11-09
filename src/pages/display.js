@@ -26,7 +26,7 @@ export default function Display () {
                         <h2 className='waveAnimationSlow'>Personal Projects</h2>
                         <div className='box-text'>
                             <i class="fas fa-grin-beam"></i>
-                            <p> I only recently started doing personal projects but I wish to start doing more personal projects.</p>
+                            <p> I only recently started doing personal projects but more projects are to come!</p>
                             <button onClick={() => history.push('/display/personal-page')} >View Works</button>
                         </div>
                     </div>

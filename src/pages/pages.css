@@ -138,7 +138,7 @@ and (orientation: portrait) {
 
     .boxes .box-text {
         position: relative;
-        height: 15rem;
+        height: 16rem;
         margin: auto;
         overflow: hidden;
     }
@@ -155,7 +155,10 @@ and (orientation: portrait) {
         background-color: black;
         opacity: 0.9;
     }
-    
+    #AboutMe {
+        font-size: 10rem;
+        height: 12rem;
+    }
 }
 
 /*Landscape */
@@ -169,7 +172,7 @@ and (-webkit-min-device-pixel-ratio: 2)
 
 and (orientation: landscape) {
     .grid-wrapper{
-        max-width: 780px;
+        max-width: 750px;
     }
     h2{
         font-size: 1.5rem;
