@@ -16,38 +16,14 @@ and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
 
 and (orientation: portrait) {
-    .grid-wrapper {
-        margin: auto;
-        display: block;
-        max-width: 350px;
-    }
-    h2 {
-        font-size: 1.5rem;
-    }
-    .grid-boxes {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
 
-    .boxes .box-text {
-        position: relative;
+    .boxes .uni-box-text {
+        
         height: 20rem;
         margin: auto;
         overflow: hidden;
     }
-    .boxes {
-        border: solid 0.2rem #A444E4;
-        border-radius: 5px;
-        font-size: 10rem;
-        text-align: center;
-        margin-bottom: 2rem;
-        padding-bottom: 2rem;
-        font-family:'Orbitron';
-        transition: all 0.8s;
-        overflow:hidden;
-        background-color: black;
-        opacity: 0.9;
-    }
+
 
 }
 

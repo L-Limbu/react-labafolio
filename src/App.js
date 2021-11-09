@@ -9,6 +9,7 @@ import Workpage from './pages/Works/workPage';
 import SolarSystem from './pages/uniProjects/solarSystem';
 import AtomTrap from './pages/uniProjects/atomTrap';
 import IsingModel from './pages/uniProjects/isingModel';
+import Spectroscopy from './pages/uniProjects/spectroscopy';
 function App() {
   return (
     <Router>
@@ -22,8 +23,8 @@ function App() {
         <Route path='/display/uni-page/magnets'>
           <IsingModel />
         </Route>
-        <Route path='/display/uni-page/solar-system/'>
-          <SolarSystem />
+        <Route path='/display/uni-page/spectroscopy/'>
+          <Spectroscopy/>
         </Route>
         <Route path='/display/uni-page/'>
           <UniPage />

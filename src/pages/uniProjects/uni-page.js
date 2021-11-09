@@ -12,7 +12,7 @@ export default function UniPage () {
 
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Looking at the solar system</h2>
-                        <div className='box-text'>
+                        <div className='uni-box-text'>
                             <i class="fas fa-meteor" ></i>
                             <p>
                                 <strong>Keywords: Space, Simulation, Orbits</strong><br/><br/>
@@ -24,7 +24,7 @@ export default function UniPage () {
                     </div>
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Trapping an atom</h2>
-                        <div className='box-text'>
+                        <div className='uni-box-text'>
                             <i class="fas fa-atom" ></i>
                             <p>
                                 <strong>Keywords: Atoms, Atomic Trap, Mass Spectrometer, Simulation</strong> <br /><br/>
@@ -35,7 +35,7 @@ export default function UniPage () {
                     </div>
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Magnets</h2>
-                        <div className='box-text'>
+                        <div className='uni-box-text'>
                             <i class="fas fa-magnet"></i>
                             <p>
                                 <strong>Keywords: Magnets, Ising Model, Simulation </strong><br /><br/>
@@ -46,7 +46,7 @@ export default function UniPage () {
                     </div>
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Poor mans Spectrometer</h2>
-                        <div className='box-text'>
+                        <div className='uni-box-text'>
                             <i class="fas fa-lightbulb"></i>
                             <p>
                                 <strong>Keywords: Light, Spectroscopy, Experiment </strong><br /><br/>
