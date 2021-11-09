@@ -172,7 +172,7 @@ and (-webkit-min-device-pixel-ratio: 2)
 
 and (orientation: landscape) {
     .grid-wrapper{
-        max-width: 750px;
+        max-width: 700px;
     }
     h2{
         font-size: 1.5rem;
