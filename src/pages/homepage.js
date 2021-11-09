@@ -20,10 +20,7 @@ export default function HomePage() {
             </p>
             <button className='home-button' onClick={handleDisplay}> 
               Display
-            </button>
-            <button className='home-button' onClick={navigator.vibrate(100)}>Vibrate</button>
-    
-    
+            </button>  
           </header>
         </div>
     );
