@@ -8,9 +8,7 @@ import { useHistory } from 'react-router-dom';
 export default function HomePage() {
     const history = useHistory();
     function handleDisplay() {
-      return (navigator.vibrate(200),
-      history.push('/display')
-      );
+      return history.push('/display')
     };
     return (
         
@@ -23,6 +21,7 @@ export default function HomePage() {
             <button className='home-button' onClick={handleDisplay}> 
               Display
             </button>
+            <button className='home-button' onClick={navigator.vibrate(100)}>Vibrate</button>
     
     
           </header>
