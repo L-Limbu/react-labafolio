@@ -26,7 +26,7 @@ html, body {
     font-family:'Orbitron'
 }
 .grid-wrapper {
-    max-width: 1100px;
+    max-width: 1250px;
     margin: auto;
 
 }
@@ -67,7 +67,7 @@ h2 {
 
 .boxes .box-text {
     position: relative;
-    height: 15rem;
+    height: 17rem;
     margin: auto;
     overflow: hidden;
 }
@@ -173,7 +173,7 @@ and (-webkit-min-device-pixel-ratio: 2)
 
 and (orientation: landscape) {
     .grid-wrapper{
-        max-width: 700px;
+        max-width: 720px;
     }
     h2{
         font-size: 1.5rem;
