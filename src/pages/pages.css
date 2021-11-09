@@ -97,6 +97,7 @@ h2 {
     opacity: 1;
     transition: all 2s;
     background-color:#00A3A3;
+    font-family:'Orbitron';
 }
 .boxes:hover button:hover{
     background-color: #FFF;

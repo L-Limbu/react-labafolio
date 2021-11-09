@@ -50,7 +50,7 @@ export default function Display () {
                         <h2 className='waveAnimationSlow' >About me</h2>
                         <div className='box-text' id='AboutMe'>
                             <i class="fas fa-user-graduate"></i>
-                            <p> Theoretical Physicist aspiring to be software and web developer.<br/><br/>Email: labalimbu360@gmail.com<br/><br/> ;)</p>
+                            <p> Theoretical Physicist aspiring to be software and web developer.<br/><br/>Email: labalimbu360@gmail.com<br/><br/> :)</p>
                         </div>
                     </div>
             </div>
