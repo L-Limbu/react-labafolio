@@ -48,7 +48,6 @@ h2 {
     border-radius: 5px;
     font-size: 12rem;
     text-align: center;
-
     font-family:'Orbitron';
     transition: all 0.8s;
     overflow:hidden;
@@ -111,7 +110,7 @@ h2 {
 #AboutMe:hover {
     font-size: 1rem;
     transform: scale(1);
-    transition: 1s;
+    transition: all 1s;
 }
 
 /* Portrait Phone */

@@ -1,0 +1,23 @@
+
+.text-wrapper {
+    max-width: 1250px;
+    margin: auto;
+    background-color: black;
+    border-radius: 5px;
+}
+.solar-h2 {
+    font-family: 'Genos';
+    font-size: 2rem;
+}
+
+.list-wrapper {
+    margin: auto;
+    max-width: fit-content;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Genos';
+}
+.solar-text {
+    font-size: 1.5rem;
+    font-family: 'Genos';
+}
