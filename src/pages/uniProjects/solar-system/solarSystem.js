@@ -1,8 +1,10 @@
+
 import React from 'react';
 import './solar-system.css'
-import ReactPlayer from 'react-player';
-
+import video1 from './rocky-orbit-xy.mp4'
+import video2 from './rocky-orbit-xz.mp4'
 export default function SolarSystem () {
+   
     return (
         <div>
             <h1> Solar System</h1>
@@ -36,7 +38,14 @@ export default function SolarSystem () {
                     Yes, they do attract other objects because they have their own moon or moons but the distance between planets are so 
                     vast the force is negligible. So they are confined to their own mini system. 
                 </p>
-               <ReactPlayer url='https://youtu.be/TqtutPCx7MA' controls={true} />
+                <video className='videos' controls autoPlay loop>
+                    <source src={video1} />
+                </video>
+               
+
+                <video className='videos' controls autoPlay loop>
+                    <source src={video2} />
+                </video>
 
             </div>
         </div>
