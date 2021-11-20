@@ -6,7 +6,7 @@ import {useHistory, Link, Redirect} from 'react-router-dom';
 export default function Display () {
     const history = useHistory();
     return (
-        <div >
+        <div className='display-body' >
             <h1 className='header waveAnimationSlow'> My Works</h1>
             <div className='grid-wrapper'>
                 <div className='grid-boxes'>

@@ -11,6 +11,7 @@ h1{
     height: 17rem;
     margin: auto;
     overflow: hidden;
+    padding: 0 0.8rem;
 }
 /* Portrait Phone */
 
@@ -52,7 +53,7 @@ and (orientation: landscape) {
     }
     .boxes .uni-box-text {
         position: relative;
-        height: 21.5rem;
+        height: 22rem;
         margin: auto;
         overflow: hidden;
     }

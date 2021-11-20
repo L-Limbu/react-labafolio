@@ -1,12 +1,12 @@
 
 import React from 'react';
 import './solar-system.css'
-import video1 from './rocky-orbit-xy.mp4'
-import video2 from './rocky-orbit-xz.mp4'
+import video1 from './resources/rocky-orbit-xy-crop.mp4'
+import video2 from './resources/rocky-orbit-xz-crop.mp4'
 export default function SolarSystem () {
    
     return (
-        <div>
+        <div className='solar-body'>
             <h1> Solar System</h1>
             <div className='text-wrapper'>
                 <h2 className='solar-h2'>How the planets move in Space</h2>
@@ -35,13 +35,13 @@ export default function SolarSystem () {
                     So in essence the planets are just falling in space and the thing they are falling to is the star or in our case
                     falling to the sun. But you might ask since gravity attract all other object, surely the planets are attracting 
                     other planets too... 
-                    Yes, they do attract other objects because they have their own moon or moons but the distance between planets are so 
+                    Yes, they do attract other objects because they have their own moon(s) but the distance between planets are so 
                     vast the force is negligible. So they are confined to their own mini system. 
                 </p>
                 <video className='videos' controls autoPlay loop>
                     <source src={video1} />
                 </video>
-               
+               <br/>
 
                 <video className='videos' controls autoPlay loop>
                     <source src={video2} />

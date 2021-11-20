@@ -1,9 +1,13 @@
 
+
 .text-wrapper {
     max-width: 1250px;
     margin: auto;
-    background-color: black;
-    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 400;
 }
 .solar-h2 {
     font-family: 'Genos';
@@ -24,4 +28,37 @@
 
 .videos {
     border-radius: 10px;
+}
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+    .videos {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}
+
+/*Landscape */
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 812px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: landscape) {
+    .videos {
+        
+        height: 350px;
+        border-radius: 10px;
+    }
 }
