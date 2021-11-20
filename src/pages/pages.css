@@ -38,7 +38,9 @@ html, body {
     gap: 2.5rem;
     padding: 1rem;
 }
-
+h1 {
+    text-shadow: 2px 2px #e48444;
+}
 h2 {
     font-size: 2rem;
 }
@@ -52,7 +54,9 @@ h2 {
     overflow:hidden;
     background-color: black;
 }
-
+.boxes h2 {
+    text-shadow: 2px 1px #0b81f0;
+}
 .boxes:hover {
     background-color: black;
     transition: all 0.8s;

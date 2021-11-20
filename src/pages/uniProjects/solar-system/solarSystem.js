@@ -9,10 +9,10 @@ import solar_img from './resources/trajectory.jpg';
 export default function SolarSystem () {
    
     return (
-        <div className='solar-body'>
-            <h1> Solar System</h1>
+        <div className='solar-body '>
+            <h1 className='waveAnimationSlow'> Solar System</h1>
             <div className='text-wrapper'>
-                <h2 className='solar-h2'>How the planets move in Space</h2>
+                <h2 className='solar-h2 '>How the planets move in Space</h2>
 
                 <p className='solar-text'>
                     Usually when we make moving objects like cars and planes there is a engine and a wheel

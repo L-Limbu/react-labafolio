@@ -6,7 +6,7 @@ export default function UniPage () {
     const history = useHistory();
     return (
         <div>
-            <h1> Works done in University</h1>
+            <h1 className='waveAnimationSlow'> Works done in University</h1>
             <div className='grid-wrapper'>
                 <div className='grid-boxes'>
 
