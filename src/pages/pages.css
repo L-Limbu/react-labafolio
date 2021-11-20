@@ -139,7 +139,7 @@ and (orientation: portrait) {
 
     .boxes .box-text {
         position: relative;
-        height: 18rem;
+        height: 20 rem;
         margin: auto;
         overflow: hidden;
     }

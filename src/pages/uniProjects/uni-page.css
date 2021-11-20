@@ -53,7 +53,7 @@ and (orientation: landscape) {
     }
     .boxes .uni-box-text {
         position: relative;
-        height: 22rem;
+        height: 24rem;
         margin: auto;
         overflow: hidden;
     }
