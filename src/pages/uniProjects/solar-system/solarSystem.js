@@ -41,12 +41,12 @@ export default function SolarSystem () {
                     Yes, they do attract other objects because they have their own moon(s) but the distance between planets are so 
                     vast the force is negligible. So they are confined to their own mini system. 
                 </p>
-                <video className='videos' controls loop playsinline>
+                <video className='videos' controls loop playsinline={false}>
                     <source src={video1} />
                 </video>
                <br/>
 
-                <video className='videos' controls  loop playsinline>
+                <video className='videos' controls  loop playsinline={true}>
                     <source src={video2} />
                 </video>
                 <br />
@@ -58,7 +58,7 @@ export default function SolarSystem () {
                     <source src={video4} />
                 </video>
                 <br />
-                <img style={{borderRadius: 10}} className='solar-img' src = {solar_img} />
+                <img style={{borderRadius: 5}} className='solar-img' src = {solar_img} />
 
             </div>
         </div>
