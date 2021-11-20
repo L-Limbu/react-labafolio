@@ -1,8 +1,11 @@
 
 import React from 'react';
-import './solar-system.css'
-import video1 from './resources/rocky-orbit-xy-crop.mp4'
-import video2 from './resources/rocky-orbit-xz-crop.mp4'
+import './solar-system.css';
+import video1 from './resources/rocky-orbit-xy-crop.mp4';
+import video2 from './resources/rocky-orbit-xz-crop.mp4';
+import video3 from './resources/Gassy_Orbit-xy-crop.mp4';
+import video4 from './resources/GassyXZ_Orbit-crop.mp4';
+import solar_img from './resources/trajectory.jpg';
 export default function SolarSystem () {
    
     return (
@@ -38,14 +41,24 @@ export default function SolarSystem () {
                     Yes, they do attract other objects because they have their own moon(s) but the distance between planets are so 
                     vast the force is negligible. So they are confined to their own mini system. 
                 </p>
-                <video className='videos' controls loop>
+                <video className='videos' controls loop playsinline>
                     <source src={video1} />
                 </video>
                <br/>
 
-                <video className='videos' controls  loop>
+                <video className='videos' controls  loop playsinline>
                     <source src={video2} />
                 </video>
+                <br />
+                <video className='videos' controls  loop playsinline>
+                    <source src={video3} />
+                </video>
+                <br />
+                <video className='videos' controls  loop playsinline>
+                    <source src={video4} />
+                </video>
+                <br />
+                <img style={{borderRadius: 10}} className='solar-img' src = {solar_img} />
 
             </div>
         </div>
