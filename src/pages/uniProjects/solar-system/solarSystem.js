@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './solar-system.css';
-import video from './resources/solarXY.mp4'
+import video from './resources/SolarXy.mp4'
 import video1 from './resources/rocky-orbit-xy-crop.mp4';
 import video2 from './resources/rocky-orbit-xz-crop.mp4';
 import video3 from './resources/Gassy_Orbit-xy-crop.mp4';
