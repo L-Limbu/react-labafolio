@@ -1,11 +1,13 @@
 
 import React from 'react';
 import './solar-system.css';
+import video from './resources/solarXY.mp4'
 import video1 from './resources/rocky-orbit-xy-crop.mp4';
 import video2 from './resources/rocky-orbit-xz-crop.mp4';
 import video3 from './resources/Gassy_Orbit-xy-crop.mp4';
 import video4 from './resources/GassyXZ_Orbit-crop.mp4';
-import solar_img from './resources/trajectory.jpg';
+import solar_img from './resources/solarOrbit.png';
+import solar_img2 from './resources/solarOrbitXZ.png'
 export default function SolarSystem () {
    
     return (
@@ -43,6 +45,10 @@ export default function SolarSystem () {
                 </p>
                 <h2> Simulations </h2>
                 <video className='videos' controls loop playsinline={false}>
+                    <source src={video} />
+                </video>
+               <br/>
+                <video className='videos' controls loop playsinline={false}>
                     <source src={video1} />
                 </video>
                <br/>
@@ -60,6 +66,8 @@ export default function SolarSystem () {
                 </video>
                 <br />
                 <img style={{borderRadius: 5}} className='solar-img' src = {solar_img} />
+                <br />
+                <img style={{borderRadius: 5}} className='solar-img' src = {solar_img2} />
 
             </div>
         </div>
