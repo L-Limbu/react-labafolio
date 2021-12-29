@@ -56,7 +56,9 @@ export default function SolarSystem () {
                         <li>Why are the gassy planets much further apart and vice versa?</li>
                         <li>Why does the path looks like a perfect circle?</li>
                     </ul>
-
+                </p>
+                <p className='solar-text'> Lets look at the animated motion of these planets to gain a deeper insight on what else 
+                is going on...
                 </p>
                <br/>
                 <video className='videos' controls loop playsinline={false}>
@@ -68,10 +70,11 @@ export default function SolarSystem () {
                <video className='videos' controls  loop playsinline>
                     <source src={video3} />
                 </video>
-                <p className='solar-text'>
+                <p className='solar-text'> We see that the planets closer to the sun moves faster compared to others. The rocky planets
+                seems to be zooming in the sky while the gassy planets are running at a sluggish pace. Again from these animations, many
+                questions can be asked.
                 </p>
                 <br />
-
                 <img style={{borderRadius: 5}} className='solar-img' src = {solar_img2} />
                 <br />
                 <p className='solar-text'>
