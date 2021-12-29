@@ -74,10 +74,18 @@ export default function SolarSystem () {
                 seems to be zooming in the sky while the gassy planets are running at a sluggish pace. Again from these animations, many
                 questions can be asked.
                 </p>
+
                 <br />
+                <h2> Looking in a different perspective </h2>
                 <img style={{borderRadius: 5}} className='solar-img' src = {solar_img2} />
                 <br />
                 <p className='solar-text'>
+                    This graph shows the solar system sideways and it indicates the the solar system is somehow suprisingly flat like a pizza.
+                    Now why is that? Out of so many different configurations, the universe decided that solar system will be
+                     flat. Again more questions...
+                </p>
+                <p className='solar-text'>
+                    Now finally lets look a the animation of the orbits sideways. But now lets start asking question.
                 </p>
                 <video className='videos' controls  loop playsinline={true}>
                     <source src={video2} />
@@ -88,7 +96,14 @@ export default function SolarSystem () {
                     <source src={video4} />
                 </video>
                 <p className='solar-text'>
+                    What do we notice?
+                    <br/>
+                    Again the questions are very similar to the previous animations. But we notice some pattern occuring here, 
+                    that the planets has a very periodic motions as it swings similar to a pendulum. 
+                    <br/>
+                
                 </p>
+                <h2>Summary</h2>
                 <br />
                 
                 
