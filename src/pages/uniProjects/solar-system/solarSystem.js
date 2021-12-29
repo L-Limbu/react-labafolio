@@ -76,7 +76,7 @@ export default function SolarSystem () {
                 </p>
 
                 <br />
-                <h2> Looking in a different perspective </h2>
+                <h2 className='solar-h2'> Looking in a different perspective </h2>
                 <img style={{borderRadius: 5}} className='solar-img' src = {solar_img2} />
                 <br />
                 <p className='solar-text'>
