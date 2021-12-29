@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './solar-system.css';
-import video from './resources/SolarXy.mp4'
+
 import video1 from './resources/rocky-orbit-xy-crop.mp4';
 import video2 from './resources/rocky-orbit-xz-crop.mp4';
 import video3 from './resources/Gassy_Orbit-xy-crop.mp4';
@@ -44,9 +44,7 @@ export default function SolarSystem () {
                     vast the force is negligible. So they are confined to their own mini system. 
                 </p>
                 <h2> Simulations </h2>
-                <video className='videos' controls loop playsinline={false}>
-                    <source src={video} />
-                </video>
+                <img style={{borderRadius: 5}} className='solar-img' src = {solar_img} />
                <br/>
                 <video className='videos' controls loop playsinline={false}>
                     <source src={video1} />
@@ -65,7 +63,7 @@ export default function SolarSystem () {
                     <source src={video4} />
                 </video>
                 <br />
-                <img style={{borderRadius: 5}} className='solar-img' src = {solar_img} />
+                
                 <br />
                 <img style={{borderRadius: 5}} className='solar-img' src = {solar_img2} />
 
