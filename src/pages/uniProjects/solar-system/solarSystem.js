@@ -50,13 +50,15 @@ export default function SolarSystem () {
                     <source src={video1} />
                 </video>
                <br/>
-
-                <video className='videos' controls  loop playsinline={true}>
-                    <source src={video2} />
-                </video>
+               
+                <img style={{borderRadius: 5}} className='solar-img' src = {solar_img2} />
                 <br />
                 <video className='videos' controls  loop playsinline>
                     <source src={video3} />
+                </video>
+                <br />
+                <video className='videos' controls  loop playsinline={true}>
+                    <source src={video2} />
                 </video>
                 <br />
                 <video className='videos' controls  loop playsinline>
@@ -64,8 +66,7 @@ export default function SolarSystem () {
                 </video>
                 <br />
                 
-                <br />
-                <img style={{borderRadius: 5}} className='solar-img' src = {solar_img2} />
+                
 
             </div>
         </div>
