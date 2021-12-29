@@ -14,7 +14,7 @@ export default function SolarSystem () {
         <div className='solar-body '>
             <h1 className='waveAnimationSlow'> Solar System</h1>
             <div className='text-wrapper'>
-                <h2 className='solar-h2 '>How the planets move in Space</h2>
+                <h2 className='solar-h2'>How the planets move in Space</h2>
 
                 <p className='solar-text'>
                     Usually when we make moving objects like cars and planes there is a engine and a wheel
@@ -43,7 +43,7 @@ export default function SolarSystem () {
                     Yes, they do attract other objects because they have their own moon(s) but the distance between planets are so 
                     vast the force is negligible. So they are confined to their own mini system. 
                 </p>
-                <h2> Simulations </h2>
+                <h2 className='solar-h2'> Simulations </h2>
                 <img style={{borderRadius: 5}} className='solar-img' src = {solar_img} />
                 <p className='solar-text'> 
                     Tada! This is the motion every planets in the solar system takes, all of it predefined.
@@ -103,7 +103,7 @@ export default function SolarSystem () {
                     <br/>
                 
                 </p>
-                <h2>Summary</h2>
+                <h2 className='solar-h2'>-Fin-</h2>
                 <br />
                 
                 
