@@ -45,25 +45,47 @@ export default function SolarSystem () {
                 </p>
                 <h2> Simulations </h2>
                 <img style={{borderRadius: 5}} className='solar-img' src = {solar_img} />
+                <p className='solar-text'> 
+                    Tada! This is the motion every planets in the solar system takes, all of it predefined.
+                    Theres a quote that says "A picture is worth a thousand word", so since we like Physics lets change that saying to 
+                    "A graph is worth a thousand question".
+                    Looking at the graph we notice that there is a dense center containing the rocky planets like Earth and Mars and then
+                    suddenly the distance between planets vastly increases, the outer planets are all gassy planets like Jupiter and Saturn.
+                    <ul> <strong>Now lets start asking question:</strong>
+                        <li>Why are the denser/rocky planets closer to the sun?</li>
+                        <li>Why are the gassy planets much further apart and vice versa?</li>
+                        <li>Why does the path looks like a perfect circle?</li>
+                    </ul>
+
+                </p>
                <br/>
                 <video className='videos' controls loop playsinline={false}>
                     <source src={video1} />
                 </video>
+                <p className='solar-text'>
+                </p>
                <br/>
-               
-                <img style={{borderRadius: 5}} className='solar-img' src = {solar_img2} />
-                <br />
-                <video className='videos' controls  loop playsinline>
+               <video className='videos' controls  loop playsinline>
                     <source src={video3} />
                 </video>
+                <p className='solar-text'>
+                </p>
                 <br />
+
+                <img style={{borderRadius: 5}} className='solar-img' src = {solar_img2} />
+                <br />
+                <p className='solar-text'>
+                </p>
                 <video className='videos' controls  loop playsinline={true}>
                     <source src={video2} />
                 </video>
+                
                 <br />
                 <video className='videos' controls  loop playsinline>
                     <source src={video4} />
                 </video>
+                <p className='solar-text'>
+                </p>
                 <br />
                 
                 
