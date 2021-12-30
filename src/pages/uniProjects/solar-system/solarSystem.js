@@ -103,6 +103,8 @@ export default function SolarSystem () {
                     <br/>
                 
                 </p>
+                <h2>Code used</h2>
+                <a href='https://github.com/L-Limbu/Solar-system' target="_blank"> Python</a>
                 <h2 className='solar-h2'>-Fin-</h2>
                 <br />
                 
