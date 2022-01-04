@@ -3,3 +3,64 @@
     height: 480px;
     object-fit: cover;
 }
+
+.atom-h {
+    font-family: 'Genos';
+    font-size: 2rem;
+}
+
+.atom-text {
+    font-size: 1.5rem;
+    font-family: 'Genos';
+}
+.atom-img {
+    border-radius: 5px;
+}
+.atom-videos {
+    border-radius: 5px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+}
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+    .atom-videos {
+        width: 100%;
+    }
+    .atom-img {
+        width: 100%;
+    }
+
+}
+
+/*Landscape */
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 812px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: landscape) {
+    .atom-videos {
+        height: 350px;
+        border-radius: 5px;
+    }
+    .atom-img {
+        height: 350px;
+        
+    }
+}
