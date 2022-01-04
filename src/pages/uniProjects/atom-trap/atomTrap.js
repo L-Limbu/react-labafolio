@@ -13,6 +13,13 @@ import video3 from './resources/penningTrap3d.mm4'
 
 export default function AtomTrap () {
     return (
-        <h1> Atom trap</h1>
+        <div className='Atombody'>
+            <h1 className='waveAnimationSlow'> Atom trap</h1>
+            <div className='text-wrapper'>
+                <h2 className='Atom-h2'>Atom Prison</h2>
+                
+            </div>
+        </div>
+        
         )
 }
