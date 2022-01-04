@@ -7,7 +7,7 @@ import PersonalPage from './pages/personalProject/personalProject';
 import Display from './pages/display';
 import Workpage from './pages/Works/workPage';
 import SolarSystem from './pages/uniProjects/solar-system/solarSystem';
-import AtomTrap from './pages/uniProjects/atomTrap';
+import AtomTrap from './pages/uniProjects/atom-trap/atomTrap';
 import IsingModel from './pages/uniProjects/isingModel';
 import Spectroscopy from './pages/uniProjects/spectroscopy';
 function App() {
