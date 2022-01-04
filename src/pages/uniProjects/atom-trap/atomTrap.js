@@ -16,7 +16,7 @@ export default function AtomTrap () {
         <div className='Atombody'>
             <h1 className='waveAnimationSlow'> Atom trap</h1>
             <div className='text-wrapper'>
-                <h2 className='Atom-h2'>Atom Prison</h2>
+                <h2 className='Atom-h'>Atom Prison</h2>
 
 
                 <img className='atom-img' src = {image1} />
@@ -32,6 +32,10 @@ export default function AtomTrap () {
                 <br/>
                 <video className='atom-videos' controls  loop playsinline={true}> <source src={video3} /></video>
                 <br/>
+                <h3 className='atom-h'>Code used</h3>
+                <a href='https://github.com/L-Limbu/Penning-Trap' target="_blank"> Python</a>
+                <h2 className='atom-h'>-Fin-</h2>
+                <br />
             </div>
         </div>
         
