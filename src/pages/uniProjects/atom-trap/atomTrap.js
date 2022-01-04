@@ -16,7 +16,7 @@ export default function AtomTrap () {
         <div className='Atombody'>
             <h1 className='waveAnimationSlow'> Atom trap</h1>
             <div className='text-wrapper'>
-                <h2 className='Atom-h'>Atom Prison</h2>
+                <h2 className='atom-h'>Atom Prison</h2>
 
 
                 <img className='atom-img' src = {image1} />
