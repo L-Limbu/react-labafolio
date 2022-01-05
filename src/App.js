@@ -34,9 +34,7 @@ function App() {
         <Route path='/display/personal-page/'>
           <PersonalPage />
         </Route>
-        <Route path='/display/work-page/'>
-          <Workpage />
-        </Route>
+       
         <Route path='/display'>
           <Display />
         </Route>

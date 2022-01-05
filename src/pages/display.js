@@ -30,14 +30,7 @@ export default function Display () {
                             <button onClick={() => history.push('/display/personal-page')} >View Works</button>
                         </div>
                     </div>
-                    <div className='boxes'>
-                        <h2 className='waveAnimationSlow'>Work</h2>
-                        <div className='box-text'>
-                            <i class="fas fa-briefcase"></i>
-                            <p> Solving problems for people and society using programming. </p>
-                            <button onClick={() => history.push('/display/work-page')}>View Works</button>
-                        </div>
-                    </div>
+                    
                     <div className='boxes'>
                         <h2 className='waveAnimationSlow'>Currently working on...</h2>
                         <div className='box-text'>
@@ -45,14 +38,17 @@ export default function Display () {
                             <p>Web development to show you guys my projects. </p>
                         </div>
                     </div>
-                </div>
-                <div className='boxes' id='AboutMe'>
-                        <h2 className='waveAnimationSlow' >About me</h2>
-                        <div className='box-text' >
-                            <i class="fas fa-user-graduate"></i>
-                            <p> Theoretical Physicist aspiring to be software and web developer.<br/><br/>Email: labalimbu360@gmail.com<br/><br/> :)</p>
+                    <div className='boxes'>
+                        <h2 className='waveAnimationSlow'>About me</h2>
+                        <div className='box-text'>
+                        <i class="fas fa-user-graduate"></i>
+                            <p> Theoretical Physicist aspiring to be software and web developer.<br/>
+                            <br/>Email: labalimbu360@gmail.com<br/><br/> :) </p>
+                            
                         </div>
                     </div>
+                </div>
+               
             </div>
             
         </div>
