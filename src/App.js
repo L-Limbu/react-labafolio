@@ -5,7 +5,7 @@ import HomePage from './pages/homepage';
 import UniPage from './pages/uniProjects/uni-page';
 import PersonalPage from './pages/personalProject/personalProject';
 import Display from './pages/display';
-import Workpage from './pages/Works/workPage';
+
 import SolarSystem from './pages/uniProjects/solar-system/solarSystem';
 import AtomTrap from './pages/uniProjects/atom-trap/atomTrap';
 import IsingModel from './pages/uniProjects/isingModel';
@@ -34,9 +34,7 @@ function App() {
         <Route path='/display/personal-page/'>
           <PersonalPage />
         </Route>
-        <Route path='/display/work-page/'>
-          <Workpage />
-        </Route>
+       
         <Route path='/display'>
           <Display />
         </Route>

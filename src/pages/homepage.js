@@ -16,7 +16,7 @@ export default function HomePage() {
           <header>
             
             <p className='waveAnimationSlow homePage-text'>
-              Welcome to my portfolio website. <br/>Hope you enjoy my work :)
+              Welcome to my portfolio website. <br/>Without further ado, please enjoy :)
             </p>
             <button className='home-button' onClick={handleDisplay}> 
               Display
