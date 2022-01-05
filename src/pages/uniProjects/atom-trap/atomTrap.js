@@ -21,14 +21,14 @@ export default function AtomTrap () {
                     Atoms are particles that makes stuff up, so dont believe it. But to believe it we must first see it and a way to
                     do that is to trap an atom. So how do we make this trap specifically for atoms.
                     <br />
-                    Atoms when their electron(s) becomes charged so their movement or path can be easily controlled. So we must make
-                     a trap that controls their movement such that it does not fly away.
+                    Atoms when they lose their electron(s), they becomes charged so their movement or path can be easily controlled. 
+                    So we must make a trap that controls their movement such that it does not fly away.
                 </p>
 
                 <img className='atom-img' src = {image1} />
                 <br/>
                 <p className='atom-text'>
-                    Here we have trapped the atom since it only moves in circle. In the picture the seems a bit too thick but lets
+                    Here we have trapped the atom since it only moves in circle. In the picture the line seems a bit too thick so lets
                     look at the animation to have a closer inspection to see what's really going on.
                 </p>
                 <video className='atom-videos' controls  loop playsinline={true}> <source src={video1} /></video>
@@ -36,10 +36,10 @@ export default function AtomTrap () {
 
                 <p className='atom-text'>
                     Looking at the animation the atom seems to be travelling in circle within as circle hence the thick line in the 
-                    graph, but it still moves in a circle so it's trapped.
+                    graph, but still it moves in a circle so it's trapped.
                     <br />
-                    This animation shows that the atom is trapped in x-y space (forward and sideways) such that it cannot fly away 
-                    forwards and sideways. However it could still fly or escape upwards or downwards (z space). Therefore we need 
+                    The animation shows that the atom is trapped in x-y space (forward/backwards and sideways) such that it cannot fly away 
+                    forwards/backwards and sideways. However it could still escape upwards or downwards (in z space). Therefore we need 
                     to fix this issue too.
                 </p>
                 <br/>
@@ -47,7 +47,7 @@ export default function AtomTrap () {
                 <br/>
                 <p className='atom-text'>
                     The graph shows the path of the atom and kinda forms a square mesh which suggests that the atom is trapped 
-                    since it doesn't escape from that square mesh. Looking at the animation 
+                    since it doesn't escape from that square mesh.
                 </p>
                 <video className='atom-videos' controls  loop playsinline={true}> <source src={video2} /></video>
                 <br/>
@@ -66,8 +66,8 @@ export default function AtomTrap () {
                 <br/>
                 <p className='atom-text'>
                     Looking at the 3D aspect of the trap, we see that the path of the atom forms a cone shape as it moves in a circle
-                    within a circle, bouncing up and down. Also note that this trap is very small as the cone in the 3D picture could
-                    fit inside a 4 millimeter cube.
+                    within a circle, bouncing up and down. 
+                    <br/> Also note that this trap is very small as the cone in the 3D picture could fit inside a 4 millimeter cube.
                 </p>
                 <h3 className='atom-h'>Code used</h3>
                 <a href='https://github.com/L-Limbu/Penning-Trap' target="_blank"> Python</a>
