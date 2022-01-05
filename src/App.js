@@ -10,6 +10,7 @@ import SolarSystem from './pages/uniProjects/solar-system/solarSystem';
 import AtomTrap from './pages/uniProjects/atom-trap/atomTrap';
 import IsingModel from './pages/uniProjects/isingModel';
 import Spectroscopy from './pages/uniProjects/spectroscopy';
+
 function App() {
   return (
     <Router>
