@@ -24,7 +24,8 @@ export default function AtomTrap () {
                     Atoms when they lose their electron(s), they becomes charged so their movement or path can be easily controlled. 
                     So we must make a trap that controls their movement such that it does not fly away.
                 </p>
-
+                <h2 className='atom-h'>Bird's-Eye View</h2>
+                <br/>
                 <img className='atom-img' src = {image1} />
                 <br/>
                 <p className='atom-text'>
@@ -43,6 +44,8 @@ export default function AtomTrap () {
                     to fix this issue too.
                 </p>
                 <br/>
+                <h2 className='atom-h'>Hope it doesn't fly away</h2>
+                <br/>
                 <img className='atom-img' src = {image2} />
                 <br/>
                 <p className='atom-text'>
@@ -58,6 +61,8 @@ export default function AtomTrap () {
                     <br/>
                     Lets look at in graph and animation in 3D to get the overall movement of the atom in the trap.
                 </p>
+                <br/>
+                <h2 className='atom-h'>Full Picture</h2>
                 <br/>
                 <img className='atom-img' src = {image3} />
                 <br/>
