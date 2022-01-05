@@ -21,7 +21,7 @@ export default function AtomTrap () {
                     Atoms are particles that makes stuff up, so dont believe it. But to believe it we must first see it and a way to
                     do that is to trap an atom. So how do we make this trap specifically for atoms.
                     <br />
-                    Atoms when they lose their electron(s), they becomes charged so their movement or path can be easily controlled. 
+                    Atoms when they lose their electron(s), they become charged so their movement or path can be easily controlled. 
                     So we must make a trap that controls their movement such that it does not fly away.
                 </p>
                 <h2 className='atom-h'>Bird's-Eye View</h2>
@@ -49,7 +49,7 @@ export default function AtomTrap () {
                 <img className='atom-img' src = {image2} />
                 <br/>
                 <p className='atom-text'>
-                    The graph shows the path of the atom and kinda forms a square mesh which suggests that the atom is trapped 
+                    The graph shows the path of the atom which kind of forms a square mesh, suggests that the atom is trapped 
                     since it doesn't escape from that square mesh.
                 </p>
                 <video className='atom-videos' controls  loop playsinline={true}> <source src={video2} /></video>
