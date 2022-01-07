@@ -102,9 +102,11 @@ export default function Spectroscopy () {
                     Plotting the graph, we can make a line of best fit as shown in the graph. And Tada! That line is our 
                     ✨Calibration Function✨ which we can use to find the wavelength of diffracted lights of other light source.
                     <br/>
+                    <br />
                     Our Calibration function is:
                     <br />
                     λ = 2.014 x - 1077
+                    <br />
                     <br />
                     To test out our calibration function we used Hydrogen Lamp to see how well our calibration function worked.
                     So again we determined the position of the diffracted lights using Paint and plug it into the ✨Calibration Function✨ 
