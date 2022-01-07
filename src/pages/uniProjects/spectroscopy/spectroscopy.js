@@ -8,8 +8,9 @@ import image4 from './resources/explainer.png'
 import image5 from './resources/comparing.png'
 import image6 from './resources/reference.png'
 import image7 from './resources/analysing.png'
-import image8 from './resources/determining.png'
-import image9 from './resources/result.png'
+import image8 from './resources/calibration.png'
+import image9 from './resources/determining.png'
+import image10 from './resources/result.png'
 
 export default function Spectroscopy () {
     return (
@@ -64,18 +65,24 @@ export default function Spectroscopy () {
                     We need to find out a mathemetical equation that can compute the wavelenght of diffracted lights. Lets call
                     this equation the ✨✨"Calibration Function"✨✨.
                 </p>
-                <h2 className='spec-h'>✨"Calibration Function"✨</h2>
+                <h2 className='spec-h'>✨Calibration Function✨</h2>
                 <p className='spec-text'>
                     To know the calibration function we need to know:
-                    <ol>
+                </p>
+                <div className='spectro-list-wrapper'>
+                <ol>
                         <li>The distance or position of the diffracted light</li>
                         <li>The wavelength of the diffracted light</li>
                     </ol>
+                </div>
+                <p className='spec-text'>
+                    Here we used the diffracted light of a Mercury lamp as a reference.
                 </p>
-                <img className='spec-img' src={image6} />
+                <img className='spec-img2' src={image6} />
                 <p className='spec-text'>
                     Finding the solution to these is easier than expexted because thanks to the Internet, we can know the wavelength
                     of the light through Wikipedia or any relevant site and compare the diffracted light to find the value.
+                    
                     <br />
                     But to find the position of the diffracted might be a little laborious but nevertheless easy! First, we need to 
                     upload the image in a software where you can edit the image. For our experiment, we found that Paint was to easiest
@@ -87,10 +94,40 @@ export default function Spectroscopy () {
                     So we just need to carefully record the position in units of pixel of each diffracted light. 
                 </p>
                 <h2 className='spec-h'>Math-Synthesis</h2>
-
-
+                <p className='spec-text'>
+                    We're entering the endgame here. Using the 2 sets of data we have found out we need to plot these value into a
+                    graph to see what it looks like.
+                </p>
                 <img className='spec-img' src={image8} />
+                <p className='spec-text'>
+                    Plotting the graph, we can make a line of best fit as shown in the graph. And Tada! That line is our 
+                    ✨Calibration Function✨ which we can use to find the wavelength of diffracted lights of other light source.
+                    <br/>
+                    Our Calibration function is:
+                    <br />
+                    λ = 2x - 1077
+                    <br />
+                    To test out our calibration function we used Hydrogen Lamp to see how well our calibration function worked.
+                    So again we determined the position of the diffracted lights using Paint and plug it into the ✨Calibration Function✨ 
+                    which gave us the following results.
+                </p>
                 <img className='spec-img' src={image9} />
+                <img className='spec-img2' src={image10} />
+                <p className='spec-text'>
+                    Amazing! the difference between the our calculated wavelength and the actual wavelength was only a few nanometer 
+                    which is smaller than a width of a hair (human hair). 
+                    <br />
+                    Fantastic!
+                </p>
+                
+                <h2 className='spec-h'>Wrap up</h2>
+                <p className='spec-text'>
+                    This experiment was very easy to do with high precision too. But I will admit the most tricky part of this 
+                    experiment was of course the ✨Calibration Function✨, but the key insight to understanding it was to fit 
+                    the diffracted light from all light sources seemed to fit inside the light spectrum.
+                </p>
+                <h2 className='solar-h2'>-Fin-</h2>
+                <br />
 
             </div>
         </div>

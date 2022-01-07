@@ -8,16 +8,28 @@
     font-family: 'Genos';
 }
 
+.spectro-list-wrapper {
+    margin: auto;
+    max-width: fit-content;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Genos';
+}
 
 .spec-img {
     width: 640px;
     height: 480px;
-    
+    object-fit: cover;
     border-radius: 5px;
 }
 .spec-img1 {
     width: 640px;
-    height: 500px;
-    
+    height: 550px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.spec-img1 {
+    width: 640px;
+    height: 350px;
     border-radius: 5px;
 }
