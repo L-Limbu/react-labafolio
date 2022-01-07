@@ -71,7 +71,9 @@ export default function Spectroscopy () {
                         <li>The distance or position of the diffracted light</li>
                         <li>The wavelength of the diffracted light</li>
                     </ol>
-                    <img className='spec-img' src={image6} />
+                </p>
+                <img className='spec-img' src={image6} />
+                <p className='spec-text'>
                     Finding the solution to these is easier than expexted because thanks to the Internet, we can know the wavelength
                     of the light through Wikipedia or any relevant site and compare the diffracted light to find the value.
                     <br />
