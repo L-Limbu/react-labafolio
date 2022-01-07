@@ -8,6 +8,13 @@
     font-family: 'Genos';
 }
 
+.spectro-list-wrapper {
+    margin: auto;
+    max-width: fit-content;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Genos';
+}
 
 .spec-img {
     width: 640px;
