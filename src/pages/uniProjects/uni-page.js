@@ -45,7 +45,7 @@ export default function UniPage () {
                         </div>
                     </div>
                     <div className='boxes'>
-                        <h2 className='waveAnimationSlow'>Poor mans Spectrometer</h2>
+                        <h2 className='waveAnimationSlow'>Spectrometer</h2>
                         <div className='uni-box-text'>
                             <i class="fas fa-lightbulb"></i>
                             <p>
