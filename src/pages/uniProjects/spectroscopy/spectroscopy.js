@@ -3,7 +3,7 @@ import './spectroscopy.css'
 
 import image1 from './resources/example-spec.png'
 import image2 from './resources/setup.png'
-import image3 from './resources/example-diccraction.png'
+import image3 from './resources/example-diffraction.png'
 import image4 from './resources/explainer.png'
 import image5 from './resources/comparing.png'
 import image6 from './resources/analysing.png'
@@ -79,6 +79,10 @@ export default function Spectroscopy () {
                     to use.
                 </p>
                 <img className='spec-img' src={image6} />
+                <p className='spec-text'>
+                    Paint was easiest to use because the distance is shown as pixel as shown in the picture inside the red box.
+                    So we just need to carefully record the position in units of pixel of each diffracted light. 
+                </p>
             </div>
         </div>
         
