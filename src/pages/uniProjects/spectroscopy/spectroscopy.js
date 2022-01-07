@@ -9,8 +9,7 @@ import image5 from './resources/comparing.png'
 import image6 from './resources/reference.png'
 import image7 from './resources/analysing.png'
 import image8 from './resources/calibration.png'
-import image9 from './resources/determining.png'
-import image10 from './resources/result.png'
+import image9 from './resources/result.png'
 
 export default function Spectroscopy () {
     return (
@@ -105,14 +104,14 @@ export default function Spectroscopy () {
                     <br/>
                     Our Calibration function is:
                     <br />
-                    λ = 2x - 1077
+                    λ = 2.014 x - 1077
                     <br />
                     To test out our calibration function we used Hydrogen Lamp to see how well our calibration function worked.
                     So again we determined the position of the diffracted lights using Paint and plug it into the ✨Calibration Function✨ 
                     which gave us the following results.
                 </p>
-                <img className='spec-img' src={image9} />
-                <img className='spec-img2' src={image10} />
+                
+                <img className='spec-img2' src={image9} />
                 <p className='spec-text'>
                     Amazing! the difference between the our calculated wavelength and the actual wavelength was only a few nanometer 
                     which is smaller than a width of a hair (human hair). 
