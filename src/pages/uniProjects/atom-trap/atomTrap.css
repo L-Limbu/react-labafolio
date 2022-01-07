@@ -2,6 +2,7 @@
     width: 640px;
     height: 480px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 .atom-h {
@@ -16,9 +17,7 @@
 .atom-img {
     border-radius: 5px;
 }
-.atom-videos {
-    border-radius: 5px;
-}
+
 
 
 
