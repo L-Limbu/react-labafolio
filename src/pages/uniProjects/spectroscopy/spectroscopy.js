@@ -6,10 +6,10 @@ import image2 from './resources/setup.png'
 import image3 from './resources/example-diffraction.png'
 import image4 from './resources/explainer.png'
 import image5 from './resources/comparing.png'
-import image6 from './resources/analysing.png'
-import image7 from './resources/'
-import image8 from './resources/'
-import image9 from './resources/'
+import image6 from './resources/reference.png'
+import image7 from './resources/analysing.png'
+import image8 from './resources/determining.png'
+import image9 from './resources/result.png'
 
 export default function Spectroscopy () {
     return (
@@ -71,6 +71,7 @@ export default function Spectroscopy () {
                         <li>The distance or position of the diffracted light</li>
                         <li>The wavelength of the diffracted light</li>
                     </ol>
+                    <img className='spec-img' src={image6} />
                     Finding the solution to these is easier than expexted because thanks to the Internet, we can know the wavelength
                     of the light through Wikipedia or any relevant site and compare the diffracted light to find the value.
                     <br />
@@ -78,11 +79,17 @@ export default function Spectroscopy () {
                     upload the image in a software where you can edit the image. For our experiment, we found that Paint was to easiest
                     to use.
                 </p>
-                <img className='spec-img' src={image6} />
+                <img className='spec-img' src={image7} />
                 <p className='spec-text'>
                     Paint was easiest to use because the distance is shown as pixel as shown in the picture inside the red box.
                     So we just need to carefully record the position in units of pixel of each diffracted light. 
                 </p>
+                <h2 className='spec-h'>Math-Synthesis</h2>
+
+
+                <img className='spec-img' src={image8} />
+                <img className='spec-img' src={image9} />
+
             </div>
         </div>
         
