@@ -68,14 +68,17 @@ export default function Spectroscopy () {
                 <h2 className='spec-h'>✨Calibration Function✨</h2>
                 <p className='spec-text'>
                     To know the calibration function we need to know:
-                    <ol>
+                </p>
+                <div className='spectro-list-wrapper'>
+                <ol>
                         <li>The distance or position of the diffracted light</li>
                         <li>The wavelength of the diffracted light</li>
                     </ol>
-                    <br />
+                </div>
+                <p className='spec-text'>
                     Here we used the diffracted light of a Mercury lamp as a reference.
                 </p>
-                <img className='spec-img' src={image6} />
+                <img className='spec-img2' src={image6} />
                 <p className='spec-text'>
                     Finding the solution to these is easier than expexted because thanks to the Internet, we can know the wavelength
                     of the light through Wikipedia or any relevant site and compare the diffracted light to find the value.
@@ -109,7 +112,7 @@ export default function Spectroscopy () {
                     which gave us the following results.
                 </p>
                 <img className='spec-img' src={image9} />
-                <img className='spec-img' src={image10} />
+                <img className='spec-img2' src={image10} />
                 <p className='spec-text'>
                     Amazing! the difference between the our calculated wavelength and the actual wavelength was only a few nanometer 
                     which is smaller than a width of a hair (human hair). 
