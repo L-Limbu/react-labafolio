@@ -1,5 +1,5 @@
 import React from 'react';
-import './resources/spectroscopy.css'
+import './spectroscopy.css'
 
 import image1 from './resources/example-spec.png'
 
@@ -27,7 +27,7 @@ export default function Spectroscopy () {
                     the size of the case is around 6-8 inches (the size of the case is 7.5 inches). <br/>
                     We can tweak this technique just a little bit to know the wavelength of light. Lets see how... 
                 </p>
-                
+
             </div>
         </div>
         
