@@ -27,9 +27,15 @@
 }
 .solar-img {
     width: 500px;
+    width: 640px;
+    height: 480px;
+    object-fit: cover;
 }
 .videos {
     border-radius: 5px;
+    width: 640px;
+    height: 480px;
+    object-fit: cover;
 }
 a {
     text-decoration: none;
