@@ -8,9 +8,16 @@
     font-family: 'Genos';
 }
 
+
 .spec-img {
     width: 640px;
     height: 480px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.spec-img1 {
+    width: 640px;
+    height: 500px;
     object-fit: cover;
     border-radius: 5px;
 }
