@@ -78,3 +78,56 @@ section.slideshow div.slideshow-controller span:active{
     text-shadow: 3px 2px 4px rgb(81, 1, 134);
     background: cadetblue;
 }
+
+
+/*Portrait */
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+    section.slideshow section.current-main {
+        width: 350px;
+        height: 400px;
+        margin: auto;
+        text-align: center;
+    }
+    section.slideshow section.slide div.slide-main-thumbnail{
+        width: 350px;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        
+    }
+
+}
+
+/*Landscape */
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 900px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: landscape) {
+    section.slideshow section.current-main {
+        width: 700px;
+        height: 400px;
+        margin: auto;
+        text-align: center;
+    }
+    section.slideshow section.slide div.slide-main-thumbnail{
+        width: 700px;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+}

@@ -78,10 +78,12 @@ export default function Slideshow({images=[], interval=7000}){
 
                 <span onClick={next}>Next</span>
             </div>
-            
+
             <section className='slide current-main'>
                     <div style={currentSlideStyle} className='slide-main-thumbnail'></div>
             </section>
         </section>
     )
 }
+
+
