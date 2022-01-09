@@ -10,6 +10,7 @@ import SolarSystem from './pages/uniProjects/solar-system/solarSystem';
 import AtomTrap from './pages/uniProjects/atom-trap/atomTrap';
 import IsingModel from './pages/uniProjects/isingModel';
 import Spectroscopy from './pages/uniProjects/spectroscopy/spectroscopy';
+import AstroPhotography from './pages/uniProjects/astro-photo/astroPics';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route path='/display/uni-page/spectroscopy/'>
           <Spectroscopy/>
+        </Route>
+        <Route path='/display/uni-page/astro-photo/'>
+          <AstroPhotography/>
         </Route>
         <Route path='/display/uni-page/'>
           <UniPage />
