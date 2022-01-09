@@ -56,6 +56,17 @@ export default function UniPage () {
                             <button onClick={() => history.push('/display/uni-page/spectroscopy')}>Know more</button>
                         </div>
                     </div>
+                    <div className='boxes'>
+                        <h2 className='waveAnimationSlow'>Astrophotograpgh</h2>
+                        <div className='uni-box-text'>
+                            <i class="fas fa-camera"></i>
+                            <p>
+                                <strong>Keywords: Photography, Telescope </strong><br /><br/>
+                                Exploring the universing through telescope.
+                            </p>
+                            <button onClick={() => history.push('/display/uni-page/astro-photo')}>Know more</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
