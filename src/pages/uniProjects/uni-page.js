@@ -57,7 +57,7 @@ export default function UniPage () {
                         </div>
                     </div>
                     <div className='boxes'>
-                        <h2 className='waveAnimationSlow'>Astrophotograpgh</h2>
+                        <h2 className='waveAnimationSlow'>Astrophotography</h2>
                         <div className='uni-box-text'>
                             <i class="fas fa-camera"></i>
                             <p>
