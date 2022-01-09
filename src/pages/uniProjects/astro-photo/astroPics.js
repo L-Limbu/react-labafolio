@@ -13,7 +13,15 @@ export default function AstroPhotograph () {
         <div className='astro-body '>
             <h1 className='waveAnimationSlow'> Astrophotography</h1>
             <div className='text-wrapper'>
-                <SlideShow />
+                <SlideShow 
+                interval={10000}
+                images={[
+                    image1,
+                    image2,
+                    image3,
+                    image4
+                    ]}
+                />
 
             </div>
         </div>
