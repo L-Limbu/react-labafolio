@@ -1,7 +1,7 @@
 import React from 'react';
 import './spectroscopy.css'
 
-import image1 from './resources/example-spec.png'
+import image1 from './resources/example-spec.jpg'
 import image2 from './resources/setup.png'
 import image3 from './resources/example-diffraction.png'
 import image4 from './resources/explainer.png'
