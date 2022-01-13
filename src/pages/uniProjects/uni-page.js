@@ -41,7 +41,7 @@ export default function UniPage () {
                                 <strong>Keywords: Magnets, Ising Model, Simulation </strong><br /><br/>
                                 Fundamentally all of the solids in the universe is arranged in a lattice where the atoms are joined together through bonds. These atoms has a discrete magnetic state either north or south, using Ising model we can find out how the overall interaction of the magnetic fields behaves in the lattice depending on the magnetic property of atoms whether ferromagnetic or anti-ferromagnetic.
                             </p>
-                            <button onClick={() => history.push('/display/uni-page/magnets')}>Know more</button>
+                            <button onClick={() => history.push('/display/uni-page/IsingModel')}>Know more</button>
                         </div>
                     </div>
                     <div className='boxes'>

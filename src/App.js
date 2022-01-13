@@ -8,7 +8,7 @@ import Display from './pages/display';
 
 import SolarSystem from './pages/uniProjects/solar-system/solarSystem';
 import AtomTrap from './pages/uniProjects/atom-trap/atomTrap';
-import IsingModel from './pages/uniProjects/isingModel';
+import IsingModel from './pages/uniProjects/IsingModel/isingModel';
 import Spectroscopy from './pages/uniProjects/spectroscopy/spectroscopy';
 import AstroPhotography from './pages/uniProjects/astro-photo/astroPics';
 
@@ -22,7 +22,7 @@ function App() {
         <Route path='/display/uni-page/atom-trap/'>
           < AtomTrap/>
         </Route>
-        <Route path='/display/uni-page/magnets'>
+        <Route path='/display/uni-page/IsingModel'>
           <IsingModel />
         </Route>
         <Route path='/display/uni-page/spectroscopy/'>
@@ -31,7 +31,7 @@ function App() {
         <Route path='/display/uni-page/astro-photo/'>
           <AstroPhotography/>
         </Route>
-        <Route path='/display/uni-page/'>
+        <Route path='/display/uni-page'>
           <UniPage />
         </Route>
         
