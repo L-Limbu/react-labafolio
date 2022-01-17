@@ -2,7 +2,7 @@ import React from 'react';
 import './ising.css';
 
 import video1 from './resources/ferromagnetic.mp4'
-import video2 from './resources/anti-ferromagnetism.mp4'
+import video2 from './resources/anti-ferromagnetism.mov'
 import video3 from './resources/zoomed-antiferromagnetic.mp4'
 import image1 from './resources/initail-cond.png'
 import image2 from './resources/zoomed-anti-end.png'
@@ -43,16 +43,10 @@ export default function IsingModel () {
                 <h2 className='ising-h'> Antiferromagnetism</h2>
                 <video className='ising-videos' controls  loop playsinline={true}> <source src={video2} /></video>
                 <p className='ising-text'>
-                    In contrast to the ferromagnetic animation, the antiferromagnetic system does not create any regions of magnetic
-                    field and they all behave in a independant manner such that they all try to minimise the magnetisation effect.
-                    Therefore the overall magnetic field from a antiferromagnetic materials is 0. 
+                    In contrast to the ferromagnetic animation, the antiferromagnetic system creates a very organised regions of magnetic
+                    field of one tenth the size of the system and  creates a checkered pattern such that they all try to minimise the 
+                    magnetisation effect. Therefore the overall magnetic field from a antiferromagnetic materials is 0. 
                 </p>
-                <video className='ising-videos' controls  loop playsinline={true}> <source src={video2} /></video>
-                <video className='ising-videos' controls  loop playsinline={true}> <source src={video3} /></video>
-
-                
-                <img className='ising-img' src={image2} />
-                
 
 
                 <h3 className='ising-h'>Code used</h3>
