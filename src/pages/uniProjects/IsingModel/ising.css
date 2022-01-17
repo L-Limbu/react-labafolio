@@ -16,3 +16,41 @@
     font-size: 1.5rem;
     font-family: 'Genos';
 }
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+    .ising-videos {
+        width: 100%;
+    }
+    .ising-img {
+        width: 100%;
+    }
+
+}
+
+/*Landscape */
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 900px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: landscape) {
+    .ising-videos {
+        height: 350px;
+        border-radius: 5px;
+    }
+    .ising-img {
+        height: 350px;
+        
+    }
+}
