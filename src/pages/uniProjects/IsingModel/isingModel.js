@@ -28,8 +28,8 @@ export default function IsingModel () {
                 <img className='ising-img' src={image1} />
                 <p className='ising-text'>
                     Here we have simulated 500 x 500 atoms where the yellow spots represents the north pole and purple represents
-                    south pole. The net magnetic field of this system should be 0 since the atoms have not aligned. Now we will 
-                    decrease the temperature of this system to see their properties reveal. 
+                    south pole. The net magnetic field of this system should be 0 since the atoms have not aligned. This is chosen 
+                    as a initail condition and now we will decrease the temperature of this system to reaveal their properties. 
                 </p>
                 <h2 className='ising-h'> Ferromagnetism</h2>
                 <video className='ising-videos' controls  loop playsinline={true}> <source src={video1} /></video>
