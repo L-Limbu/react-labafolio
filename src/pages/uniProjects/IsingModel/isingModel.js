@@ -3,9 +3,9 @@ import './ising.css';
 
 import video1 from './resources/ferromagnetic.mp4'
 import video2 from './resources/anti-ferromagnetism.mov'
-import video3 from './resources/zoomed-antiferromagnetic.mp4'
+
 import image1 from './resources/initail-cond.png'
-import image2 from './resources/zoomed-anti-end.png'
+
 
 export default function IsingModel () {
     return (
@@ -48,7 +48,13 @@ export default function IsingModel () {
                     magnetisation effect. Therefore the overall magnetic field from a antiferromagnetic materials is 0. 
                 </p>
 
-
+                <h2 className='ising-h'>Wrap up</h2>
+                <p className='ising-text'>
+                    Considering the size of the system, I think that the duration of the simulation should be longer because we can 
+                    still see the lines of uncertain atoms trying to decide its magnetic alignment. However making longer simulations 
+                    takes more time and requires more storage capacity (one data for the simulation took 2GB). Maybe this project can 
+                    be extended with a more powerful computer.
+                </p>
                 <h3 className='ising-h'>Code used</h3>
                 <a href='https://github.com/L-Limbu/Ising-Model' target="_blank"> Python</a>
                 <h2 className='ising-h'>-Fin-</h2>
